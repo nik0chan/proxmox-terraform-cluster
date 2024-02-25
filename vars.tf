@@ -1,0 +1,13 @@
+variable "ssh_public_key" {}
+variable "proxmox_master_ip" {}
+variable "proxmox_master" {}
+variable "proxmox_worker_1" {}
+variable "proxmox_worker_2" {}
+variable "template_name" {}
+variable "dest_storage" {}   
+variable "token_id" {}   
+variable "token" {}
+variable "kube_worker1_ip" {}   
+variable "kube_worker2_ip" {}   
+variable "kube_master_ip" {}   
+variable "kube_gateway" {}   
